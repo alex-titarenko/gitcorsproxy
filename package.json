@@ -1,0 +1,28 @@
+{
+  "name": "gitcorsproxy",
+  "version": "1.0.0",
+  "description": "Serverless Git Cors Proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-titarenko/gitcorsproxy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alex-titarenko/gitcorsproxy/issues"
+  },
+  "homepage": "https://github.com/alex-titarenko/gitcorsproxy#readme",
+  "dependencies": {
+    "@vercel/node": "^2.5.24",
+    "micro": "^9.4.1",
+    "micro-cors": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/micro-cors": "^0.1.2",
+    "@types/node-fetch": "^2.6.2"
+  }
+}
